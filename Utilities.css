@@ -15,10 +15,43 @@ body {
     padding-left: 35%;
 }
 
+.Head-Detail {
+    color: rgb(127, 111, 172);
+    font-style: italic;
+    font-weight: bolder;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.year{
+    color: white;
+    font-weight: bold;
+}
+
+.Paragraph {
+    font-size: large;
+    color: white;
+    font-weight: bold;
+
+}
+
 .images{
     padding-left: 20%;
     width: 200px;
     height: 200px;
+}
+
+.split{
+    padding-left: 5%;
+    padding-top: 10%;
+    margin-right: 70%;
+}
+
+.neighbor{
+    display: inline-block;
+    vertical-align: middle;
+    /* padding-bottom: 20%;
+    padding-left: 60%; */
 }
 
 .cells{
@@ -26,12 +59,18 @@ body {
     padding-top: 5%;
     padding-left: 10px;
     font-size: xx-large;
-    font-style: italic;
-    text-shadow: 2px 2px;
-    
+    font-style: italic;    
 }
 
 .Hyperlink {
-    color:black;
+    color:rgb(107, 119, 173);
     text-decoration: none;
+    font-weight: bolder;
+}
+
+.back {
+    color: aliceblue;
+    padding-left: 5%;
+    padding-top: 5%;
+    font-size: x-large;
 }
